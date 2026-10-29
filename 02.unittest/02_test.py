@@ -23,5 +23,5 @@ class RectangleTest(unittest.TestCase):
         self.assertRaises(ValueError, area, -4, 5)
         self.assertRaises(ValueError, area, 4, -5)
 
-if __name__ == "__main__":
-    unittest.main(verbosity=2)
+# if __name__ == "__main__":
+#     unittest.main(verbosity=2)
